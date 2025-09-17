@@ -1,0 +1,18 @@
+.btn-moderno {
+    background-color: #007bff; /* Cor de fundo azul */
+    color: #fff; /* Cor do texto branca */
+    padding: 12px 24px; /* Espaçamento interno (cima/baixo, esquerda/direita) */
+    border: none; /* Remove a borda padrão */
+    border-radius: 25px; /* Cantos arredondados */
+    font-size: 16px; /* Tamanho da fonte */
+    font-weight: bold; /* Deixa o texto em negrito */
+    cursor: pointer; /* Muda o cursor para uma mão ao passar por cima */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave para todas as propriedades em 0.3 segundos */
+  }
+  
+  .btn-moderno:hover {
+    background-color: #0056b3; /* Cor de fundo mais escura ao passar o mouse */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra um pouco mais forte ao passar o mouse */
+    transform: translateY(-2px); /* Move o botão 2px para cima */
+  }
